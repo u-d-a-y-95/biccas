@@ -6,11 +6,12 @@ import Intercom from "@/app/assets/images/intercom.png";
 import Descript from "@/app/assets/images/descript.png";
 import Grammerly from "@/app/assets/images/grammerly.png";
 import { Header } from "@/components/header";
-import { AnalyticsSection } from "@/components/pages/home/analyticsSection";
-import { BannerSection } from "@/components/pages/home/banner";
+
 import { ProductSection } from "@/components/pages/home/product-section";
 import { PriceSection } from "@/components/pages/home/price-section";
 import { Footer } from "@/components/footer";
+import { BannerSection } from "@/components/pages/home/banner-section";
+import { AnalyticsSection } from "@/components/pages/home/analytics-section";
 
 export default function Home() {
   return (

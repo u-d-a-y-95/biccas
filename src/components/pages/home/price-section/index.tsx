@@ -9,7 +9,7 @@ export const PriceSection = () => {
         <h1 className="text-[50px] font-bold max-w-[490px] text-center">
           Choose Plan That’s Right For You
         </h1>
-        <p className="text-lg mt-8 text-secondary font-bold">
+        <p className="text-lg mt-8 text-secondary font-bold text-center">
           Choose plan that works best for you, feel free to contact us
         </p>
         <div className="flex items-center mt-6 gap-4 bg-white p-2 rounded shadow">

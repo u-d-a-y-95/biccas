@@ -21,7 +21,7 @@ export const ProductSection = () => {
           Get Started
         </button>
       </div>
-      <div className="my-16 flex flex-col md:flex-row justify-between ">
+      <div className="my-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
         <div className="w-[360px]">
           <Image
             src={Product1}
@@ -50,7 +50,7 @@ export const ProductSection = () => {
           <p>Here you can handle projects together with team virtually</p>
         </div>
       </div>
-      <div className="flex my-28 justify-between relative">
+      <div className="flex my-28 flex-col md:flex-row justify-between relative">
         <Blurer
           background="#FFD6D6"
           classNames="top-[-450px] left-[-450px] blur-[0px] z-10"
@@ -82,7 +82,7 @@ export const ProductSection = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className=" self-center mt-16 md:mt-0">
           <Image src={banner2} width={320} height={480} alt="banner-2" />
         </div>
       </div>

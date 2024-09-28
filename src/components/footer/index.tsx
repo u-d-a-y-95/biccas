@@ -9,7 +9,7 @@ export const Footer = () => {
             <h2 className="text-5xl lx:text-[50px] text-white font-semibold">
               People are Saying About DoWhith
             </h2>
-            <p>
+            <p className="mt-4">
               Everything you need to accept to payment and grow your money of
               manage anywhere on planet
             </p>
