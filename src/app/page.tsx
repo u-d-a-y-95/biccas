@@ -1,7 +1,8 @@
 import { Blurer } from "@/components/blurer";
 import Image from "next/image";
 import Line from "@/app/assets/images/line.png";
-import banner from "@/app/assets/images/banner.png";
+import banner1 from "@/app/assets/images/banner-1.png";
+import banner2 from "@/app/assets/images/banner-2.png";
 import Unsplash from "@/app/assets/images/unsplash.png";
 import Notion from "@/app/assets/images/notion.png";
 import Intercom from "@/app/assets/images/intercom.png";
@@ -90,7 +91,7 @@ export default function Home() {
               <Image src={CreditCard} alt="" height={170} width={130} />
             </div>
             <div>
-              <Image src={banner} width={370} height={500} alt="banner" />
+              <Image src={banner1} width={370} height={500} alt="banner" />
             </div>
           </div>
         </div>
@@ -246,6 +247,42 @@ export default function Home() {
             <p>Here you can handle projects together with team virtually</p>
           </div>
         </div>
+        <div className="flex my-28 justify-between relative">
+          <Blurer
+            background="#FFD6D6"
+            classNames="top-[-450px] left-[-450px] blur-[0px] z-10"
+          />
+          <div>
+            <h2 className="text-[50px] font-bold max-w-[430px]">
+              What Benifit Will You Get
+            </h2>
+            <ul className="text-[#191A15] mt-10  flex flex-col gap-4">
+              <li className="flex items-center gap-2">
+                <CheckCircleIcon className=" w-6 aspect-square text-primary" />4
+                Free Consulting With Experet Saving Money
+              </li>
+              <li className="flex items-center gap-2">
+                <CheckCircleIcon className=" w-6 aspect-square text-primary" />
+                Online Banking
+              </li>
+              <li className="flex items-center gap-2">
+                <CheckCircleIcon className=" w-6 aspect-square text-primary" />
+                Investment Report Every Month
+              </li>
+              <li className="flex items-center gap-2">
+                <CheckCircleIcon className=" w-6 aspect-square text-primary" />
+                Saving Money For The Future
+              </li>
+              <li className="flex items-center gap-2">
+                <CheckCircleIcon className=" w-6 aspect-square text-primary" />
+                Online Transection
+              </li>
+            </ul>
+          </div>
+          <div>
+            <Image src={banner2} width={320} height={480} alt="banner-2" />
+          </div>
+        </div>
       </div>
 
       <div className="relative">
@@ -254,21 +291,21 @@ export default function Home() {
           <h1 className="text-[50px] font-bold max-w-[490px] text-center">
             Choose Plan That’s Right For You
           </h1>
-          <p className="text-lg font-bold">
+          <p className="text-lg mt-8 text-secondary font-bold">
             Choose plan that works best for you, feel free to contact us
           </p>
-          <div className="flex items-center gap-4 bg-white p-2 rounded shadow">
+          <div className="flex items-center mt-6 gap-4 bg-white p-2 rounded shadow">
             <div>Bil Monthly</div>
             <div className="bg-primary rounded py-2 px-4 text-white">
               Bil Yearly
             </div>
           </div>
           <div className="my-16 flex justify-center items-end gap-5">
-            <div className="bg-white p-4 rounded-xl text-white w-[320px] flex flex-col items-center gap-3 text-secondary">
+            <div className="bg-white p-4 rounded-xl text-[#191A15] w-[320px] flex flex-col items-center gap-3 ">
               <h3 className="text-[30px] font-semibold text-center mt-6">
                 Free
               </h3>
-              <p className="max-w-[218px] text-center">
+              <p className="max-w-[218px] text-center text-secondary">
                 Have a go and test your superpowers
               </p>
               <p className="text-[50px] font-semibold">
@@ -336,11 +373,11 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="bg-white p-4 rounded-xl text-white w-[320px] flex flex-col items-center gap-3 text-secondary">
+            <div className="bg-white p-4 rounded-xl  w-[320px] flex flex-col items-center gap-3 text-[#191A15]">
               <h3 className="text-[30px] font-semibold text-center mt-6">
                 Business
               </h3>
-              <p className="max-w-[218px] text-center">
+              <p className="max-w-[218px] text-center text-secondary">
                 Unveil new superpowers and join the Design Leaque
               </p>
               <p className="text-[50px] font-semibold">
